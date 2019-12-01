@@ -19,7 +19,6 @@ class School
     @roster.map do |key, i|
       if key == num
         prints i
-        end
       end
     end
   end
