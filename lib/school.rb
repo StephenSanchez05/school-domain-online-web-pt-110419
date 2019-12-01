@@ -24,5 +24,6 @@ def sort
     key.sort
   @roster.sort
 end
+end
     
 end
