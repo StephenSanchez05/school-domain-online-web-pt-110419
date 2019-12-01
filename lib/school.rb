@@ -21,5 +21,6 @@ class School
         puts value
       end
     end
+  end
     
 end
