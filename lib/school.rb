@@ -1,7 +1,7 @@
 class School
   attr_accessor :name
   
-  ROSTER ||= {new_key: value}
+  ROSTER ||= {"key" => "value"}
   
   def initialize(name)
     @name = name
