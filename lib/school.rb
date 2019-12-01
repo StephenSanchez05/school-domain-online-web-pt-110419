@@ -20,10 +20,11 @@ class School
   end
 
 def sort
+  answer = {}
   @roster.each do |grade, name|
-    [grade].sort
-  @roster.sort_by {|grade, name| grade}
+    answer[grade] = name.sort
 end
+sorted
 end
 
     
