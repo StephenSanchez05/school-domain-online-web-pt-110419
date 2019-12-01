@@ -16,6 +16,10 @@ class School
   end
   
   def grade(num)
-    
+    @roster.each do |key, value|
+      if key == num
+        puts value
+      end
+    end
     
 end
