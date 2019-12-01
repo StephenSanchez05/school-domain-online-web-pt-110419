@@ -19,5 +19,8 @@ class School
     @roster[num]
   end
 
+def sort
+  @roster.map do |key, i|
+    
     
 end
