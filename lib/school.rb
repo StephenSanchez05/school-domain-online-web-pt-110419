@@ -25,7 +25,6 @@ def sort
   @roster.sort_by {|grade, name| grade}
 end
 end
-end
 
     
 end
