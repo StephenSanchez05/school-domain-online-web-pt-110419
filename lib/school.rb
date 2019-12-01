@@ -20,7 +20,7 @@ class School
   end
 
 def sort
-  @roster = Hash@roster.sort_by { |grade| grade}.to_h
+  @roster = Hash[@roster.sort_by { |grade, name| grade}]
 end
 
     
