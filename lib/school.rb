@@ -20,10 +20,8 @@ class School
   end
 
 def sort
-  @roster.each do |key, i|
-    [key].sort
-  @roster.sort
+  @roster = @roster.sort_by { |grade| grade}.to_h
 end
-end
+
     
 end
