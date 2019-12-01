@@ -1,6 +1,6 @@
 class School
   
-  ROSTER[]=[]
+  ROSTER = {}
   
   def initialize(name)
     @name = name
@@ -11,5 +11,6 @@ class School
   end
   
   def add_student(name, grade)
+    ROSTER[grade] = name
   
 end
