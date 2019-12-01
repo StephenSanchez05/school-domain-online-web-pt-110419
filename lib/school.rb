@@ -18,7 +18,8 @@ class School
   def grade(num)
     @roster.map do |key, i|
       if key == num
-        @roster[key]
+        key.map do |i|
+          puts i
       end
     end
   end
