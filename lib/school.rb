@@ -16,7 +16,7 @@ class School
   end
   
   def grade(num)
-    @roster.each do |key, i|
+    @roster.map do |key, i|
       if key != num
         @roster[key]
       end
