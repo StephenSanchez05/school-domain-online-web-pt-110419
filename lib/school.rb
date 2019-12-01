@@ -10,6 +10,6 @@ class School
     @name
   end
   
-  def add_student(name, num)
+  def add_student(name, grade)
   
 end
