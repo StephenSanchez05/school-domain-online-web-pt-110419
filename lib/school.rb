@@ -9,4 +9,7 @@ class School
   def name(name)
     @name
   end
+  
+  def add_student(name, num)
+  
 end
