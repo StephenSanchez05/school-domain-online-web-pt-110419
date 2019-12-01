@@ -20,6 +20,8 @@ class School
   end
 
 def sort
+  @roster.each do |key, i|
+    key.sort
   @roster.sort
 end
     
