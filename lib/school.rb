@@ -24,7 +24,7 @@ def sort
   @roster.each do |grade, name|
     answer[grade] = name.sort
 end
-sorted
+answer
 end
 
     
