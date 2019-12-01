@@ -1,4 +1,5 @@
 class School
+  attr_accessor :name
   
   ROSTER = []
   
@@ -6,9 +7,6 @@ class School
     @name = name
   end
   
-  def name(name)
-    @name
-  end
   
   def add_student(name, grade)
     ROSTER["#{grade}"] = "#{name}"
