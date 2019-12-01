@@ -17,8 +17,7 @@ class School
   
   def grade(num)
     @roster.map do |key, i|
-      if key == num
-        print i
+      @roster[key] unless key != num
       end
     end
   end
