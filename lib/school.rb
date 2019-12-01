@@ -1,6 +1,6 @@
 class School
   
-  ROSTER["new_key"] = []
+  ROSTER = []
   
   def initialize(name)
     @name = name
