@@ -20,6 +20,7 @@ class School
       if key == num
         key.map do |i|
           puts i
+        end
       end
     end
   end
